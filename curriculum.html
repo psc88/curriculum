@@ -2,65 +2,69 @@
 <html>
 
 <head>
-    <meta charset="UTP-8">
-    <title>Mi curriculum</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/curriculum.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Mi curriculum</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>Castillo, Pablo Sebastián</h1>
-            <img src="imagenes/perfil.png" alt="fotoPerfil" width="100">
-            <p>Estudiante de Ingeniería en informatica con buena predisposicion para el aprendizaje en programacion web, en proceso de aprendizaje del desarrollo mediante html,css y javascript</p>
+        <div class="container">
+            <img src="../Curriculum/imagenes/perfil.png" alt="" class="logo">
+            <div class="date">
+                <h1>Castillo, Pablo Sebastián</h1>
+                <p>Asesor telefónico grupo Telecom</p>
+            </div>
         </div>
     </header>
 
-    <div>
-        <section class="main">
+    <main class="main container">
+        <div class="left-block">
             <section class="articles">
-                <article>
-                    <h2>Exeriencia laboral</h2>
-                    <hr width="1" size="100">
-                    <p>Enero 2013-2014</p>
-                    <p>Trabajos en Carpinteria en MDF (Empresa Familiar).</p>
-                    <p>Abril 2017-2021</p>
-                    <p>Teleperfomance - Agente telefónico, campaña Telecom, fibertel, cablevision (área comercial y técnica)</p>
+                <article class="profile">
+                    <h2>PERFIL PERSONAL</h2>
+                    <button disabled="disabled" class="button"></button>
+                    <p>Me motiva mucho desarrollar mis habilidades y crecer profesionalmente. Actualmente me encuentro cursando la carrera de Ing. en Informatica</p>
                 </article>
-
-                <article>
-                    <h2>Formación</h2>
-                    <hr width="1" size="100">
-                    <p>Título secundario alcanzado</p>
-                    <p>EDUCACION TECNICA – MODALIDAD: Técnico en Construcción </p>
-                    <p>Escuela de Educación Técnica N°1. San Pedro de Jujuy, Jujuy-Argentina</p>
-                    <p>Estudiante de la carrera de Ingeniería en Sistemas. Universidad Tecnológica de Tucuman 1°año</p>
+                <article class="training">
+                    <h2>CONTACTO</h2>
+                    <button disabled="disabled" class="button"></button>
+                    <p>Universidad Tecnológica Nacional - Facultad Regional Tucumán</p>
+                    <p>Ingeniera en Sistemas (en curso)</p>
                 </article>
-
-                <article>
-                    <h2>Habilidades</h2>
-                    <hr width="1" size="100">
-                    <ul>
-                        <li>Facilidad de Comunicación e iniciativa</li>
-                        <li>Trabajo en equipo</li>
-                        <li>Facilidad para las relaciones públicas</li>
-                        <li>Rapidez en aprendizaje</li>
-                        <li>Manejo de computadora</li>
-                    </ul>
+                <article class="training">
+                    <h2>FORMACIÓN</h2>
+                    <button disabled="disabled" class="button"></button>
+                    <p>Universidad Tecnológica Nacional - Facultad Regional Tucumán</p>
+                    <p>Ingeniera en Sistemas (en curso)</p>
                 </article>
             </section>
-            <aside>
-                <h3>Datos peronales</h3>
-                <br>
-                <p>psc88sdrd@gmail.com</p>
-            </aside>
-        </section>
-    </div>
-
-    <footer>
-        <p>Pablo Castillo - 2021</p>
-    </footer>
-
+        </div>
+        <div class="right-block">
+            <article>
+                <h2>HABILIDADES</h2>
+                <button disabled="disabled" class="button"></button>
+                <ul>
+                    <li>Facilidad de Comunicación e iniciativa</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Facilidad para las relaciones públicas</li>
+                    <li>Rapidez en aprendizaje</li>
+                    <li>Manejo de computadora</li>
+                </ul>
+            </article>
+            <article>
+                <h2>EXPERIENCIA LABORAL</h2>
+                <button disabled="disabled" class="button"></button>
+                <h3>Enero 2013-2014</h3>
+                <p>Trabajos en Carpinteria en MDF (Empresa Familiar).</p>
+                <h3>Abril 2017-2021</h3>
+                <p>Teleperfomance - Agente telefónico, campaña Telecom, fibertel, cablevision (área comercial y técnica)</p>
+            </article>
+        </div>
+    </main>
 </body>
 
 </html>
