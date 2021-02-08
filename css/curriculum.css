@@ -203,18 +203,37 @@ h2 {
     margin-bottom: 10px;
 }
 
-.button {
+.main .left-block hr {
     margin-bottom: 15px;
-    height: 8px;
-    width: 70px;
-    border-radius: 0%;
-    border: solid;
+    height: 1px;
+    width: 70%;
+    border: solid #e6e6e6;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.main .right-block hr {
+    margin-bottom: 15px;
+    height: 5px;
+    width: 70%;
+    border: solid #2b2828;
 }
 
 .main .right-block {
     background: #e6e6e6;
     padding: 25px;
     width: 40%;
+}
+
+.main .right-block .skills li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #11698e;
+    color: #fff;
 }
 
 .main .right-block ul {
