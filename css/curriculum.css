@@ -218,7 +218,7 @@ a {
 
 .main .right-block hr {
     margin-bottom: 15px;
-    height: 5px;
+    height: 1px;
     width: 70%;
     border: solid #2b2828;
 }
@@ -279,5 +279,21 @@ a {
     .main .right-block li,
     .main .right-block {
         font-size: 12px;
+    }
+    .main .left-block {
+        padding: 8px;
+        width: 60%;
+    }
+    .main .right-block {
+        padding: 8px;
+        width: 40%;
+    }
+    .main .left-block hr,
+    .main .right-block hr {
+        width: 100%;
+    }
+    .main .right-block .skills li {
+        padding: 5px;
+        margin: 2px;
     }
 }
