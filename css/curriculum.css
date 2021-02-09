@@ -178,14 +178,14 @@ header .container {
     color: white;
 }
 
-.main .left-block P {
-    color: #e6e6e6;
-}
-
 .main .left-block {
     background-color: #11698e;
     padding: 25px;
     width: 60%;
+}
+
+.main .left-block P {
+    color: #e6e6e6;
 }
 
 .main .left-block .profile {
@@ -249,4 +249,35 @@ a {
 
 .main .right-block p {
     margin-bottom: 10px;
+}
+
+
+/*---- ------ Media Queries (par una pantalla mas chica) ------ ------*/
+
+@media screen and (max-width: 800px) {
+    header .container .logo {
+        margin: 5px;
+        width: 90px;
+        height: 90px;
+    }
+    .container .date h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .container .date p {
+        font-size: 16px;
+    }
+    .main .left-block h2,
+    .main .right-block h2 {
+        font-size: 18px;
+    }
+    .main .right-block h3 {
+        font-size: 15px;
+    }
+    .main .left-block p,
+    .main .left-block a,
+    .main .right-block li,
+    .main .right-block {
+        font-size: 12px;
+    }
 }
