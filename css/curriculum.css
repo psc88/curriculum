@@ -255,6 +255,12 @@ a {
 /*---- ------ Media Queries (par una pantalla mas chica) ------ ------*/
 
 @media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    header .container {
+        padding: 5px;
+    }
     header .container .logo {
         margin: 5px;
         width: 90px;
@@ -266,6 +272,15 @@ a {
     }
     .container .date p {
         font-size: 16px;
+    }
+    .main {
+        flex-flow: column;
+        padding: 16px;
+    }
+    .main .left-block,
+    .main .right-block {
+        width: 100%;
+        padding: 16px;
     }
     .main .left-block h2,
     .main .right-block h2 {
@@ -279,14 +294,6 @@ a {
     .main .right-block li,
     .main .right-block {
         font-size: 12px;
-    }
-    .main .left-block {
-        padding: 8px;
-        width: 60%;
-    }
-    .main .right-block {
-        padding: 8px;
-        width: 40%;
     }
     .main .left-block hr,
     .main .right-block hr {
