@@ -233,14 +233,14 @@ a {
 .main .right-block .skills li {
     display: inline-block;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     background-color: #11698e;
     color: #fff;
 }
 
 .main .right-block ul {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .main .right-block h3 {
@@ -254,10 +254,13 @@ a {
 
 .main .right-block article a {
     color: black;
+    text-decoration-line: underline;
 }
 
 .main .right-block article a:hover{
     color: red;
+    text-decoration-line: none;
+    font-size: 20px;
 }
 
 /*---- ------ Media Queries (par una pantalla mas chica) ------ ------*/
@@ -265,6 +268,9 @@ a {
 @media screen and (max-width: 800px) {
     .container {
         width: 100%;
+    }
+    header {
+        padding: 0;
     }
     header .container {
         padding: 5px;
