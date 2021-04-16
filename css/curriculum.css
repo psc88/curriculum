@@ -14,6 +14,7 @@ body {
 
 .container {
     width: 90%;
+    max-width: 1280px;
     margin: auto;
     background: #19456b;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
@@ -251,6 +252,13 @@ a {
     margin-bottom: 10px;
 }
 
+.main .right-block article a {
+    color: black;
+}
+
+.main .right-block article a:hover{
+    color: red;
+}
 
 /*---- ------ Media Queries (par una pantalla mas chica) ------ ------*/
 
