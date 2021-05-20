@@ -56,7 +56,6 @@ header .container {
     font-size: 22px;
 }
 
-
 /*----- ----- animacion del fondo ----- -----*/
 
 .circles {
@@ -241,6 +240,10 @@ a {
 .main .right-block ul {
     margin-bottom: 15px;
     padding: 0px;
+}
+
+.main .right-block .aptitudes {
+    list-style-position: inside;
 }
 
 .main .right-block h3 {
