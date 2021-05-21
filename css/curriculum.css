@@ -237,6 +237,11 @@ a {
     color: #fff;
 }
 
+.main .workExperience {
+    margin-left: 16px;
+
+}
+
 .main .right-block ul {
     margin-bottom: 15px;
     padding: 0px;
@@ -261,9 +266,8 @@ a {
 }
 
 .main .right-block article a:hover{
-    color: red;
+    color: #11698e;
     text-decoration-line: none;
-    font-size: 20px;
 }
 
 /*---- ------ Media Queries (par una pantalla mas chica) ------ ------*/
